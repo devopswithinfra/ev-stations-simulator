@@ -1,1 +1,10 @@
-
+version: 1.0
+runtime: nodejs12
+build:
+  commands:    
+    build:
+      - corepack enable
+      - corepack prepare pnpm@latest --activate
+      - pnpm install
+run:                              
+  command: pnpm start
