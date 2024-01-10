@@ -7,4 +7,8 @@ build:
       - corepack prepare pnpm@latest --activate
       - pnpm install
 run:                              
-  command: pnpm start
+  commands: 
+    run: 
+      - corepack enable
+      - corepack prepare pnpm@latest --activate
+      - pnpm start
