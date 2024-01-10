@@ -15,8 +15,8 @@
     "type": "jsonfile"
   },
   "uiServer": {
-    "enabled": false,
-    "type": "ws",
+    "enabled": true,
+    "type": "http",
     "authentication": {
       "enabled": true,
       "type": "basic-auth",
